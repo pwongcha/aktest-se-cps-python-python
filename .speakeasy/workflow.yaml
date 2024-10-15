@@ -1,0 +1,11 @@
+workflowVersion: 1.0.0
+sources:
+    aktest-se-cps-python-OAS:
+        inputs:
+            - location: ../openapi/cps/Enrollments.json
+        registry:
+            location: registry.speakeasyapi.dev/akamai/gss/aktest-se-cps-python-oas
+targets:
+    aktest-se-cps-python:
+        target: python
+        source: aktest-se-cps-python-OAS

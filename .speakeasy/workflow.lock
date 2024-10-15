@@ -1,0 +1,26 @@
+speakeasyVersion: 1.418.4
+sources:
+    aktest-se-cps-python-OAS:
+        sourceNamespace: aktest-se-cps-python-oas
+        sourceRevisionDigest: sha256:cc63cbb9c62b5ef1d8b79ff9b87042b38de850c5c5a13be2bc00314801cc9de8
+        sourceBlobDigest: sha256:b5fe9a2deefafe55ac96ea2f1f56ee53d2bb61dd844297d01b7e69e72d06e7e0
+        tags:
+            - latest
+targets:
+    aktest-se-cps-python:
+        source: aktest-se-cps-python-OAS
+        sourceNamespace: aktest-se-cps-python-oas
+        sourceRevisionDigest: sha256:cc63cbb9c62b5ef1d8b79ff9b87042b38de850c5c5a13be2bc00314801cc9de8
+        sourceBlobDigest: sha256:b5fe9a2deefafe55ac96ea2f1f56ee53d2bb61dd844297d01b7e69e72d06e7e0
+workflow:
+    workflowVersion: 1.0.0
+    sources:
+        aktest-se-cps-python-OAS:
+            inputs:
+                - location: ../openapi/cps/Enrollments.json
+            registry:
+                location: registry.speakeasyapi.dev/akamai/gss/aktest-se-cps-python-oas
+    targets:
+        aktest-se-cps-python:
+            target: python
+            source: aktest-se-cps-python-OAS

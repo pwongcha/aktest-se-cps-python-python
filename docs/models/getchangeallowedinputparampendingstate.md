@@ -1,0 +1,11 @@
+# GetChangeAllowedInputParamPendingState
+
+The snapshot of the pending state for the enrollment when this change takes effect.
+
+
+## Fields
+
+| Field                                                                                                                              | Type                                                                                                                               | Required                                                                                                                           | Description                                                                                                                        |
+| ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| `pending_network_configuration`                                                                                                    | [models.GetChangeAllowedInputParamPendingNetworkConfiguration](../models/getchangeallowedinputparampendingnetworkconfiguration.md) | :heavy_check_mark:                                                                                                                 | The snapshot of the pending network configuration for the enrollment when this change takes effect.                                |
+| `pending_certificate`                                                                                                              | [Optional[models.GetChangeAllowedInputParamPendingCertificate]](../models/getchangeallowedinputparampendingcertificate.md)         | :heavy_minus_sign:                                                                                                                 | The snapshot of the pending certificate for the enrollment when this change takes effect.                                          |

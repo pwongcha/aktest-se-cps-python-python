@@ -1,0 +1,11 @@
+# Sni
+
+SNI settings for your enrollment. When set to `null`, the enrollment becomes non-SNI. When it is non-null, enrollment is SNI-only. This setting cannot be changed once an enrollment is created.
+
+
+## Fields
+
+| Field                                                                                                                      | Type                                                                                                                       | Required                                                                                                                   | Description                                                                                                                |
+| -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| `clone_dns_names`                                                                                                          | *bool*                                                                                                                     | :heavy_check_mark:                                                                                                         | Enable if you want CPS to direct traffic using all the SANs listed in the SANs parameter when you created your enrollment. |
+| `dns_names`                                                                                                                | List[*str*]                                                                                                                | :heavy_minus_sign:                                                                                                         | Names served by SNI-only enabled enrollments.                                                                              |

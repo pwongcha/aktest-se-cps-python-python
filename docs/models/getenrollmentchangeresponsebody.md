@@ -1,0 +1,11 @@
+# GetEnrollmentChangeResponseBody
+
+Any change that you want to make to the network deployment of an enrollment.
+
+
+## Fields
+
+| Field                                                                                                                              | Type                                                                                                                               | Required                                                                                                                           | Description                                                                                                                        |
+| ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| `allowed_input`                                                                                                                    | List[[models.AllowedInput](../models/allowedinput.md)]                                                                             | :heavy_check_mark:                                                                                                                 | The resource path locations of data inputs allowed by this change. These could be required or optional for this change to proceed. |
+| `status_info`                                                                                                                      | [models.StatusInfo](../models/statusinfo.md)                                                                                       | :heavy_check_mark:                                                                                                                 | The status for this change at this time.                                                                                           |

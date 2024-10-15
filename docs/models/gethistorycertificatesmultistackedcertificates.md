@@ -1,0 +1,11 @@
+# GetHistoryCertificatesMultiStackedCertificates
+
+
+## Fields
+
+| Field                                                                                        | Type                                                                                         | Required                                                                                     | Description                                                                                  |
+| -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| `certificate`                                                                                | *Nullable[str]*                                                                              | :heavy_check_mark:                                                                           | The certificate text for the multi-stacked certificate.                                      |
+| `expiry`                                                                                     | *str*                                                                                        | :heavy_check_mark:                                                                           | The expiration date for the multi-stacked certificate.                                       |
+| `key_algorithm`                                                                              | [models.GetHistoryCertificatesKeyAlgorithm](../models/gethistorycertificateskeyalgorithm.md) | :heavy_check_mark:                                                                           | The key algorithm for the multi-stacked certificate. This is either `ECDSA` or `RSA`.        |
+| `trust_chain`                                                                                | *Nullable[str]*                                                                              | :heavy_check_mark:                                                                           | The trust chain for the multi-stacked certificate.                                           |

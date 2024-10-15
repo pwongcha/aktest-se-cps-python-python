@@ -1,0 +1,50 @@
+# Certificates
+(*certificates*)
+
+## Overview
+
+Get information on your certificates.
+
+### Available Operations
+
+* [get_active_certificates](#get_active_certificates) - List active certificates
+
+## get_active_certificates
+
+__Limited availability__ Lists enrollments with active certificates. Note that the rate limit for this operation is 10 requests per minute per account. For details, see [Rate limiting](ref:rate-limiting).
+
+See documentation for this operation in Akamai's Certificate Provisioning System API
+<https://techdocs.akamai.com/cps/reference/get-active-certificates>
+
+### Example Usage
+
+```python
+from aktest_se_cps_python import AktestSeCpsPython
+
+s = AktestSeCpsPython()
+
+res = s.certificates.get_active_certificates(contract_id="K-0N7RAK7", account_switch_key="1-5C0YLB:1-8BYUX")
+
+if res is not None:
+    # handle response
+    pass
+
+```
+
+### Parameters
+
+| Parameter                                                                                                                                                                                                                                                                                                                                                     | Type                                                                                                                                                                                                                                                                                                                                                          | Required                                                                                                                                                                                                                                                                                                                                                      | Description                                                                                                                                                                                                                                                                                                                                                   | Example                                                                                                                                                                                                                                                                                                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `contract_id`                                                                                                                                                                                                                                                                                                                                                 | *str*                                                                                                                                                                                                                                                                                                                                                         | :heavy_check_mark:                                                                                                                                                                                                                                                                                                                                            | Specify the contract on which to operate or view.                                                                                                                                                                                                                                                                                                             | K-0N7RAK7                                                                                                                                                                                                                                                                                                                                                     |
+| `account_switch_key`                                                                                                                                                                                                                                                                                                                                          | *Optional[str]*                                                                                                                                                                                                                                                                                                                                               | :heavy_minus_sign:                                                                                                                                                                                                                                                                                                                                            | For customers who manage more than one account, this [runs the operation from another account](https://techdocs.akamai.com/developer/docs/manage-many-accounts-with-one-api-client). The Identity and Access Management API provides a [list of available account switch keys](https://techdocs.akamai.com/iam-api/reference/get-client-account-switch-keys). | 1-5C0YLB:1-8BYUX                                                                                                                                                                                                                                                                                                                                              |
+| `retries`                                                                                                                                                                                                                                                                                                                                                     | [Optional[utils.RetryConfig]](../../models/utils/retryconfig.md)                                                                                                                                                                                                                                                                                              | :heavy_minus_sign:                                                                                                                                                                                                                                                                                                                                            | Configuration to override the default retry behavior of the client.                                                                                                                                                                                                                                                                                           |                                                                                                                                                                                                                                                                                                                                                               |
+
+### Response
+
+**[models.GetActiveCertificatesResponseBody](../../models/getactivecertificatesresponsebody.md)**
+
+### Errors
+
+| Error Type      | Status Code     | Content Type    |
+| --------------- | --------------- | --------------- |
+| models.SDKError | 4XX, 5XX        | \*/\*           |

@@ -1,0 +1,11 @@
+# PutEnrollmentDNSNameSettings
+
+DNS name settings.
+
+
+## Fields
+
+| Field                                                                                                                      | Type                                                                                                                       | Required                                                                                                                   | Description                                                                                                                |
+| -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| `clone_dns_names`                                                                                                          | *bool*                                                                                                                     | :heavy_check_mark:                                                                                                         | Enable if you want CPS to direct traffic using all the SANs listed in the SANs parameter when you created your enrollment. |
+| `dns_names`                                                                                                                | List[*str*]                                                                                                                | :heavy_minus_sign:                                                                                                         | Names served by SNI-only enabled enrollments.                                                                              |

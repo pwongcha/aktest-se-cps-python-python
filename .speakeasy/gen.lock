@@ -1,0 +1,650 @@
+lockVersion: 2.0.0
+id: ad27d907-cf9a-4789-9f80-66baa42b1590
+management:
+  docChecksum: 3659bce235a9fb098dba563704a04c41
+  docVersion: v2
+  speakeasyVersion: 1.418.4
+  generationVersion: 2.438.3
+  releaseVersion: 0.0.1
+  configChecksum: 9e0ed9b71b923e730b2729b726713e2f
+features:
+  python:
+    acceptHeaders: 3.0.0
+    additionalDependencies: 1.0.0
+    constsAndDefaults: 1.0.4
+    core: 5.6.0
+    defaultEnabledRetries: 0.2.0
+    devContainers: 3.0.0
+    enumUnions: 0.1.0
+    envVarSecurityUsage: 0.3.1
+    flattening: 3.1.0
+    globalSecurityCallbacks: 1.0.0
+    globalServerURLs: 3.0.0
+    methodArguments: 1.0.2
+    nullables: 1.0.0
+    responseFormat: 1.0.1
+    retries: 3.0.2
+    sdkHooks: 1.0.0
+generatedFiles:
+  - .devcontainer/README.md
+  - .devcontainer/devcontainer.json
+  - .devcontainer/setup.sh
+  - .gitattributes
+  - .python-version
+  - .vscode/settings.json
+  - CONTRIBUTING.md
+  - USAGE.md
+  - docs/models/action.md
+  - docs/models/admincontact.md
+  - docs/models/allowedinput.md
+  - docs/models/allowedinputtypeparam.md
+  - docs/models/authenticationoptions.md
+  - docs/models/certificatechaintype.md
+  - docs/models/certificatesandtrustchains.md
+  - docs/models/certificatetype.md
+  - docs/models/challenges.md
+  - docs/models/changetype.md
+  - docs/models/clientmutualauthentication.md
+  - docs/models/csr.md
+  - docs/models/csrs.md
+  - docs/models/deleteenrollmentchangerequest.md
+  - docs/models/deleteenrollmentchangeresponsebody.md
+  - docs/models/deleteenrollmentenrollmentsresponsebody.md
+  - docs/models/deleteenrollmentrequest.md
+  - docs/models/deleteenrollmentresponse.md
+  - docs/models/deleteenrollmentresponsebody.md
+  - docs/models/deploymentschedule.md
+  - docs/models/deploymentstatus.md
+  - docs/models/dnsnamesettings.md
+  - docs/models/domainhistory.md
+  - docs/models/dv.md
+  - docs/models/error.md
+  - docs/models/errors.md
+  - docs/models/geography.md
+  - docs/models/getactivecertificatescertificatesgeography.md
+  - docs/models/getactivecertificatescertificateskeyalgorithm.md
+  - docs/models/getactivecertificatescertificatesmultistackedcertificates.md
+  - docs/models/getactivecertificatescertificatesnetworkconfiguration.md
+  - docs/models/getactivecertificatescertificatesocspstapling.md
+  - docs/models/getactivecertificatescertificatesprimarycertificate.md
+  - docs/models/getactivecertificatescertificatesresponse200keyalgorithm.md
+  - docs/models/getactivecertificatescertificatesresponse200signaturealgorithm.md
+  - docs/models/getactivecertificatescertificatesresponsekeyalgorithm.md
+  - docs/models/getactivecertificatescertificatesresponsesignaturealgorithm.md
+  - docs/models/getactivecertificatescertificatessecurenetwork.md
+  - docs/models/getactivecertificatescertificatessignaturealgorithm.md
+  - docs/models/getactivecertificatescertificatetype.md
+  - docs/models/getactivecertificateschangetype.md
+  - docs/models/getactivecertificatescsr.md
+  - docs/models/getactivecertificatesenrollments.md
+  - docs/models/getactivecertificatesgeography.md
+  - docs/models/getactivecertificateskeyalgorithm.md
+  - docs/models/getactivecertificatesmultistackedcertificates.md
+  - docs/models/getactivecertificatesnetworkconfiguration.md
+  - docs/models/getactivecertificatesocspstapling.md
+  - docs/models/getactivecertificatespendingchanges.md
+  - docs/models/getactivecertificatesprimarycertificate.md
+  - docs/models/getactivecertificatesproduction.md
+  - docs/models/getactivecertificatesrequest.md
+  - docs/models/getactivecertificatesresponsebody.md
+  - docs/models/getactivecertificatessecurenetwork.md
+  - docs/models/getactivecertificatessignaturealgorithm.md
+  - docs/models/getactivecertificatesstaging.md
+  - docs/models/getchangeallowedinputparamcertificatetype.md
+  - docs/models/getchangeallowedinputparamchallenges.md
+  - docs/models/getchangeallowedinputparamchangescertificatetype.md
+  - docs/models/getchangeallowedinputparamchangesdnsnamesettings.md
+  - docs/models/getchangeallowedinputparamchangeserrors.md
+  - docs/models/getchangeallowedinputparamchangesgeography.md
+  - docs/models/getchangeallowedinputparamchangeskeyalgorithm.md
+  - docs/models/getchangeallowedinputparamchangesmultistackedcertificates.md
+  - docs/models/getchangeallowedinputparamchangesnetworkconfiguration.md
+  - docs/models/getchangeallowedinputparamchangesocspstapling.md
+  - docs/models/getchangeallowedinputparamchangespendingcertificate.md
+  - docs/models/getchangeallowedinputparamchangespendingnetworkconfiguration.md
+  - docs/models/getchangeallowedinputparamchangespendingstate.md
+  - docs/models/getchangeallowedinputparamchangesprimarycertificate.md
+  - docs/models/getchangeallowedinputparamchangesresponse200applicationvndakamaicpschangemanagementinfov2plusjsonsignaturealgorithm.md
+  - docs/models/getchangeallowedinputparamchangesresponse200applicationvndakamaicpschangemanagementinfov4plusjsonsignaturealgorithm.md
+  - docs/models/getchangeallowedinputparamchangesresponse200applicationvndakamaicpschangemanagementinfov5plusjsonkeyalgorithm.md
+  - docs/models/getchangeallowedinputparamchangesresponse200applicationvndakamaicpschangemanagementinfov5plusjsonsignaturealgorithm.md
+  - docs/models/getchangeallowedinputparamchangesresponse200applicationvndakamaicpschangemanagementinfov6plusjsonkeyalgorithm.md
+  - docs/models/getchangeallowedinputparamchangesresponse200applicationvndakamaicpschangemanagementinfov6plusjsonresponsebody.md
+  - docs/models/getchangeallowedinputparamchangesresponse200applicationvndakamaicpschangemanagementinfov6plusjsonsignaturealgorithm.md
+  - docs/models/getchangeallowedinputparamchangesresponse200applicationvndakamaicpscsrv1plusjsonresponsebody.md
+  - docs/models/getchangeallowedinputparamchangesresponse200applicationvndakamaicpscsrv2plusjsonkeyalgorithm.md
+  - docs/models/getchangeallowedinputparamchangesresponse200applicationvndakamaicpscsrv2plusjsonresponsebody.md
+  - docs/models/getchangeallowedinputparamchangesresponse200applicationvndakamaicpsdeploymentv3plusjsonresponsebody.md
+  - docs/models/getchangeallowedinputparamchangesresponse200applicationvndakamaicpsdeploymentv6plusjsonresponsebody.md
+  - docs/models/getchangeallowedinputparamchangesresponse200applicationvndakamaicpsdeploymentv7plusjsonresponsebody.md
+  - docs/models/getchangeallowedinputparamchangesresponse200applicationvndakamaicpsdeploymentv7plusjsonsignaturealgorithm.md
+  - docs/models/getchangeallowedinputparamchangesresponse200applicationvndakamaicpsdeploymentv8plusjsonresponsebody.md
+  - docs/models/getchangeallowedinputparamchangesresponse200applicationvndakamaicpsdeploymentv8plusjsonresponsebodysignaturealgorithm.md
+  - docs/models/getchangeallowedinputparamchangesresponse200applicationvndakamaicpsdeploymentv8plusjsonsignaturealgorithm.md
+  - docs/models/getchangeallowedinputparamchangesresponse200applicationvndakamaicpsdvchallengesv1plusjsonresponsebody.md
+  - docs/models/getchangeallowedinputparamchangesresponse200applicationvndakamaicpsdvchallengesv2plusjsonresponsebody.md
+  - docs/models/getchangeallowedinputparamchangesresponse200applicationvndakamaicpswarningsv1plusjsonresponsebody.md
+  - docs/models/getchangeallowedinputparamchangesresponse200certificatetype.md
+  - docs/models/getchangeallowedinputparamchangesresponse200errors.md
+  - docs/models/getchangeallowedinputparamchangesresponse200geography.md
+  - docs/models/getchangeallowedinputparamchangesresponse200keyalgorithm.md
+  - docs/models/getchangeallowedinputparamchangesresponse200networkconfiguration.md
+  - docs/models/getchangeallowedinputparamchangesresponse200ocspstapling.md
+  - docs/models/getchangeallowedinputparamchangesresponse200pendingnetworkconfiguration.md
+  - docs/models/getchangeallowedinputparamchangesresponse200pendingstate.md
+  - docs/models/getchangeallowedinputparamchangesresponse200responsebody.md
+  - docs/models/getchangeallowedinputparamchangesresponse200signaturealgorithm.md
+  - docs/models/getchangeallowedinputparamchangesresponse200validationresult.md
+  - docs/models/getchangeallowedinputparamchangesresponse200warnings.md
+  - docs/models/getchangeallowedinputparamchangesresponsebody.md
+  - docs/models/getchangeallowedinputparamchangesresponsecertificatetype.md
+  - docs/models/getchangeallowedinputparamchangesresponsednsnamesettings.md
+  - docs/models/getchangeallowedinputparamchangesresponseerrors.md
+  - docs/models/getchangeallowedinputparamchangesresponsegeography.md
+  - docs/models/getchangeallowedinputparamchangesresponsekeyalgorithm.md
+  - docs/models/getchangeallowedinputparamchangesresponsenetworkconfiguration.md
+  - docs/models/getchangeallowedinputparamchangesresponseocspstapling.md
+  - docs/models/getchangeallowedinputparamchangesresponsependingnetworkconfiguration.md
+  - docs/models/getchangeallowedinputparamchangesresponsependingstate.md
+  - docs/models/getchangeallowedinputparamchangesresponseresponsebody.md
+  - docs/models/getchangeallowedinputparamchangesresponsesignaturealgorithm.md
+  - docs/models/getchangeallowedinputparamchangesresponsevalidationresult.md
+  - docs/models/getchangeallowedinputparamchangesresponsewarnings.md
+  - docs/models/getchangeallowedinputparamchangessecurenetwork.md
+  - docs/models/getchangeallowedinputparamchangessignaturealgorithm.md
+  - docs/models/getchangeallowedinputparamchangessni.md
+  - docs/models/getchangeallowedinputparamchangesvalidationresult.md
+  - docs/models/getchangeallowedinputparamchangeswarnings.md
+  - docs/models/getchangeallowedinputparamdnsnamesettings.md
+  - docs/models/getchangeallowedinputparamerrors.md
+  - docs/models/getchangeallowedinputparamgeography.md
+  - docs/models/getchangeallowedinputparamkeyalgorithm.md
+  - docs/models/getchangeallowedinputparammultistackedcertificates.md
+  - docs/models/getchangeallowedinputparamnetworkconfiguration.md
+  - docs/models/getchangeallowedinputparamocspstapling.md
+  - docs/models/getchangeallowedinputparampendingcertificate.md
+  - docs/models/getchangeallowedinputparampendingcertificates.md
+  - docs/models/getchangeallowedinputparampendingnetworkconfiguration.md
+  - docs/models/getchangeallowedinputparampendingstate.md
+  - docs/models/getchangeallowedinputparamprimarycertificate.md
+  - docs/models/getchangeallowedinputparamrequest.md
+  - docs/models/getchangeallowedinputparamresponse.md
+  - docs/models/getchangeallowedinputparamresponsebody.md
+  - docs/models/getchangeallowedinputparamsecurenetwork.md
+  - docs/models/getchangeallowedinputparamsignaturealgorithm.md
+  - docs/models/getchangeallowedinputparamsni.md
+  - docs/models/getchangeallowedinputparamstatus.md
+  - docs/models/getchangeallowedinputparamtype.md
+  - docs/models/getchangeallowedinputparamvalidationresult.md
+  - docs/models/getchangeallowedinputparamwarnings.md
+  - docs/models/getchangedeploymentschedulerequest.md
+  - docs/models/getchangedeploymentscheduleresponsebody.md
+  - docs/models/getdeploymentsdeploymentsgeography.md
+  - docs/models/getdeploymentsdeploymentskeyalgorithm.md
+  - docs/models/getdeploymentsdeploymentsmultistackedcertificates.md
+  - docs/models/getdeploymentsdeploymentsnetworkconfiguration.md
+  - docs/models/getdeploymentsdeploymentsocspstapling.md
+  - docs/models/getdeploymentsdeploymentsprimarycertificate.md
+  - docs/models/getdeploymentsdeploymentsresponse200keyalgorithm.md
+  - docs/models/getdeploymentsdeploymentsresponse200signaturealgorithm.md
+  - docs/models/getdeploymentsdeploymentsresponsekeyalgorithm.md
+  - docs/models/getdeploymentsdeploymentsresponsesignaturealgorithm.md
+  - docs/models/getdeploymentsdeploymentssecurenetwork.md
+  - docs/models/getdeploymentsdeploymentssignaturealgorithm.md
+  - docs/models/getdeploymentsgeography.md
+  - docs/models/getdeploymentskeyalgorithm.md
+  - docs/models/getdeploymentsmultistackedcertificates.md
+  - docs/models/getdeploymentsnetworkconfiguration.md
+  - docs/models/getdeploymentsocspstapling.md
+  - docs/models/getdeploymentsprimarycertificate.md
+  - docs/models/getdeploymentsproductiondeploymentskeyalgorithm.md
+  - docs/models/getdeploymentsproductiondeploymentssignaturealgorithm.md
+  - docs/models/getdeploymentsproductiongeography.md
+  - docs/models/getdeploymentsproductionkeyalgorithm.md
+  - docs/models/getdeploymentsproductionmultistackedcertificates.md
+  - docs/models/getdeploymentsproductionnetworkconfiguration.md
+  - docs/models/getdeploymentsproductionocspstapling.md
+  - docs/models/getdeploymentsproductionprimarycertificate.md
+  - docs/models/getdeploymentsproductionrequest.md
+  - docs/models/getdeploymentsproductionresponsebody.md
+  - docs/models/getdeploymentsproductionsecurenetwork.md
+  - docs/models/getdeploymentsproductionsignaturealgorithm.md
+  - docs/models/getdeploymentsrequest.md
+  - docs/models/getdeploymentsresponsebody.md
+  - docs/models/getdeploymentssecurenetwork.md
+  - docs/models/getdeploymentssignaturealgorithm.md
+  - docs/models/getdeploymentstagingdeploymentskeyalgorithm.md
+  - docs/models/getdeploymentstagingdeploymentssignaturealgorithm.md
+  - docs/models/getdeploymentstaginggeography.md
+  - docs/models/getdeploymentstagingkeyalgorithm.md
+  - docs/models/getdeploymentstagingmultistackedcertificates.md
+  - docs/models/getdeploymentstagingnetworkconfiguration.md
+  - docs/models/getdeploymentstagingocspstapling.md
+  - docs/models/getdeploymentstagingprimarycertificate.md
+  - docs/models/getdeploymentstagingrequest.md
+  - docs/models/getdeploymentstagingresponsebody.md
+  - docs/models/getdeploymentstagingsecurenetwork.md
+  - docs/models/getdeploymentstagingsignaturealgorithm.md
+  - docs/models/getdvhistorychallenges.md
+  - docs/models/getdvhistoryenrollmentsvalidationrecords.md
+  - docs/models/getdvhistoryrequest.md
+  - docs/models/getdvhistoryresponsebody.md
+  - docs/models/getdvhistoryvalidationrecords.md
+  - docs/models/getenrollmentadmincontact.md
+  - docs/models/getenrollmentauthenticationoptions.md
+  - docs/models/getenrollmentcertificatechaintype.md
+  - docs/models/getenrollmentcertificatetype.md
+  - docs/models/getenrollmentchangerequest.md
+  - docs/models/getenrollmentchangeresponsebody.md
+  - docs/models/getenrollmentchangetype.md
+  - docs/models/getenrollmentclientmutualauthentication.md
+  - docs/models/getenrollmentcsr.md
+  - docs/models/getenrollmentdnsnamesettings.md
+  - docs/models/getenrollmentgeography.md
+  - docs/models/getenrollmentnetworkconfiguration.md
+  - docs/models/getenrollmentocsp.md
+  - docs/models/getenrollmentocspstapling.md
+  - docs/models/getenrollmentorg.md
+  - docs/models/getenrollmentpendingchanges.md
+  - docs/models/getenrollmentra.md
+  - docs/models/getenrollmentrequest.md
+  - docs/models/getenrollmentresponsebody.md
+  - docs/models/getenrollmentsadmincontact.md
+  - docs/models/getenrollmentsauthenticationoptions.md
+  - docs/models/getenrollmentscertificatechaintype.md
+  - docs/models/getenrollmentscertificatetype.md
+  - docs/models/getenrollmentschangetype.md
+  - docs/models/getenrollmentsclientmutualauthentication.md
+  - docs/models/getenrollmentscsr.md
+  - docs/models/getenrollmentsdnsnamesettings.md
+  - docs/models/getenrollmentsecurenetwork.md
+  - docs/models/getenrollmentsenrollments.md
+  - docs/models/getenrollmentsgeography.md
+  - docs/models/getenrollmentsignaturealgorithm.md
+  - docs/models/getenrollmentsnetworkconfiguration.md
+  - docs/models/getenrollmentsocsp.md
+  - docs/models/getenrollmentsocspstapling.md
+  - docs/models/getenrollmentsorg.md
+  - docs/models/getenrollmentspendingchanges.md
+  - docs/models/getenrollmentsra.md
+  - docs/models/getenrollmentsrequest.md
+  - docs/models/getenrollmentsresponsebody.md
+  - docs/models/getenrollmentssecurenetwork.md
+  - docs/models/getenrollmentssignaturealgorithm.md
+  - docs/models/getenrollmentstechcontact.md
+  - docs/models/getenrollmentsthirdparty.md
+  - docs/models/getenrollmentsvalidationtype.md
+  - docs/models/getenrollmenttechcontact.md
+  - docs/models/getenrollmentthirdparty.md
+  - docs/models/getenrollmentvalidationtype.md
+  - docs/models/gethistorycertificatescertificates.md
+  - docs/models/gethistorycertificatesenrollmentskeyalgorithm.md
+  - docs/models/gethistorycertificatesgeography.md
+  - docs/models/gethistorycertificateskeyalgorithm.md
+  - docs/models/gethistorycertificatesmultistackedcertificates.md
+  - docs/models/gethistorycertificatesprimarycertificate.md
+  - docs/models/gethistorycertificatesrequest.md
+  - docs/models/gethistorycertificatesresponsebody.md
+  - docs/models/gethistorychangeschanges.md
+  - docs/models/gethistorychangesmultistackedcertificates.md
+  - docs/models/gethistorychangesprimarycertificate.md
+  - docs/models/gethistorychangesrequest.md
+  - docs/models/gethistorychangesresponsebody.md
+  - docs/models/keyalgorithm.md
+  - docs/models/multistackedcertificates.md
+  - docs/models/networkconfiguration.md
+  - docs/models/ocsp.md
+  - docs/models/ocspstapling.md
+  - docs/models/org.md
+  - docs/models/pathparamallowedinputtypeparam.md
+  - docs/models/pendingcertificate.md
+  - docs/models/pendingcertificates.md
+  - docs/models/pendingchanges.md
+  - docs/models/pendingnetworkconfiguration.md
+  - docs/models/pendingstate.md
+  - docs/models/postchangeallowedinputparamchangesrequestapplicationvndakamaicpscertificateandtrustchainv2plusjsonrequestbody.md
+  - docs/models/postchangeallowedinputparamrequest.md
+  - docs/models/postchangeallowedinputparamresponsebody.md
+  - docs/models/postenrollmentrequest.md
+  - docs/models/postenrollmentrequestbody.md
+  - docs/models/postenrollmentresponsebody.md
+  - docs/models/primarycertificate.md
+  - docs/models/primarycertificateorderdetails.md
+  - docs/models/production.md
+  - docs/models/putchangedeploymentschedulerequest.md
+  - docs/models/putchangedeploymentschedulerequestbody.md
+  - docs/models/putchangedeploymentscheduleresponsebody.md
+  - docs/models/putenrollmentadmincontact.md
+  - docs/models/putenrollmentauthenticationoptions.md
+  - docs/models/putenrollmentcertificatechaintype.md
+  - docs/models/putenrollmentcertificatetype.md
+  - docs/models/putenrollmentchangetype.md
+  - docs/models/putenrollmentclientmutualauthentication.md
+  - docs/models/putenrollmentcsr.md
+  - docs/models/putenrollmentdnsnamesettings.md
+  - docs/models/putenrollmentenrollmentsresponsebody.md
+  - docs/models/putenrollmentgeography.md
+  - docs/models/putenrollmentnetworkconfiguration.md
+  - docs/models/putenrollmentocsp.md
+  - docs/models/putenrollmentocspstapling.md
+  - docs/models/putenrollmentorg.md
+  - docs/models/putenrollmentpendingchanges.md
+  - docs/models/putenrollmentra.md
+  - docs/models/putenrollmentrequest.md
+  - docs/models/putenrollmentrequestbody.md
+  - docs/models/putenrollmentresponse.md
+  - docs/models/putenrollmentresponsebody.md
+  - docs/models/putenrollmentsecurenetwork.md
+  - docs/models/putenrollmentsignaturealgorithm.md
+  - docs/models/putenrollmenttechcontact.md
+  - docs/models/putenrollmentthirdparty.md
+  - docs/models/putenrollmentvalidationtype.md
+  - docs/models/ra.md
+  - docs/models/results.md
+  - docs/models/securenetwork.md
+  - docs/models/signaturealgorithm.md
+  - docs/models/sni.md
+  - docs/models/staging.md
+  - docs/models/stagingstatus.md
+  - docs/models/state.md
+  - docs/models/status.md
+  - docs/models/statusinfo.md
+  - docs/models/techcontact.md
+  - docs/models/thirdparty.md
+  - docs/models/type.md
+  - docs/models/utils/retryconfig.md
+  - docs/models/validationrecords.md
+  - docs/models/validationresult.md
+  - docs/models/validationtype.md
+  - docs/models/warnings.md
+  - docs/sdks/aktestsecpspython/README.md
+  - docs/sdks/certificates/README.md
+  - docs/sdks/changes/README.md
+  - docs/sdks/deployments/README.md
+  - docs/sdks/enrollments/README.md
+  - poetry.toml
+  - py.typed
+  - pylintrc
+  - pyproject.toml
+  - scripts/compile.sh
+  - scripts/prepare-readme.py
+  - scripts/publish.sh
+  - src/aktest_se_cps_python/__init__.py
+  - src/aktest_se_cps_python/_hooks/__init__.py
+  - src/aktest_se_cps_python/_hooks/sdkhooks.py
+  - src/aktest_se_cps_python/_hooks/types.py
+  - src/aktest_se_cps_python/_version.py
+  - src/aktest_se_cps_python/basesdk.py
+  - src/aktest_se_cps_python/certificates.py
+  - src/aktest_se_cps_python/changes.py
+  - src/aktest_se_cps_python/deployments.py
+  - src/aktest_se_cps_python/enrollments.py
+  - src/aktest_se_cps_python/httpclient.py
+  - src/aktest_se_cps_python/models/__init__.py
+  - src/aktest_se_cps_python/models/delete_enrollment_changeop.py
+  - src/aktest_se_cps_python/models/delete_enrollmentop.py
+  - src/aktest_se_cps_python/models/get_active_certificatesop.py
+  - src/aktest_se_cps_python/models/get_change_allowed_input_paramop.py
+  - src/aktest_se_cps_python/models/get_change_deployment_scheduleop.py
+  - src/aktest_se_cps_python/models/get_deployment_stagingop.py
+  - src/aktest_se_cps_python/models/get_deployments_productionop.py
+  - src/aktest_se_cps_python/models/get_deploymentsop.py
+  - src/aktest_se_cps_python/models/get_dv_historyop.py
+  - src/aktest_se_cps_python/models/get_enrollment_changeop.py
+  - src/aktest_se_cps_python/models/get_enrollmentop.py
+  - src/aktest_se_cps_python/models/get_enrollmentsop.py
+  - src/aktest_se_cps_python/models/get_history_certificatesop.py
+  - src/aktest_se_cps_python/models/get_history_changesop.py
+  - src/aktest_se_cps_python/models/post_change_allowed_input_paramop.py
+  - src/aktest_se_cps_python/models/post_enrollmentop.py
+  - src/aktest_se_cps_python/models/put_change_deployment_scheduleop.py
+  - src/aktest_se_cps_python/models/put_enrollmentop.py
+  - src/aktest_se_cps_python/models/sdkerror.py
+  - src/aktest_se_cps_python/py.typed
+  - src/aktest_se_cps_python/sdk.py
+  - src/aktest_se_cps_python/sdkconfiguration.py
+  - src/aktest_se_cps_python/types/__init__.py
+  - src/aktest_se_cps_python/types/basemodel.py
+  - src/aktest_se_cps_python/utils/__init__.py
+  - src/aktest_se_cps_python/utils/annotations.py
+  - src/aktest_se_cps_python/utils/enums.py
+  - src/aktest_se_cps_python/utils/eventstreaming.py
+  - src/aktest_se_cps_python/utils/forms.py
+  - src/aktest_se_cps_python/utils/headers.py
+  - src/aktest_se_cps_python/utils/logger.py
+  - src/aktest_se_cps_python/utils/metadata.py
+  - src/aktest_se_cps_python/utils/queryparams.py
+  - src/aktest_se_cps_python/utils/requestbodies.py
+  - src/aktest_se_cps_python/utils/retries.py
+  - src/aktest_se_cps_python/utils/security.py
+  - src/aktest_se_cps_python/utils/serializers.py
+  - src/aktest_se_cps_python/utils/url.py
+  - src/aktest_se_cps_python/utils/values.py
+examples:
+  get-active-certificates:
+    "":
+      parameters:
+        query:
+          contractId: "K-0N7RAK7"
+          accountSwitchKey: "1-5C0YLB:1-8BYUX"
+      responses:
+        "200":
+          application/vnd.akamai.cps.active-certificates.v2+json: {"enrollments": [{"assignedSlots": [38634], "certificateType": "san", "csr": {"cn": "dv-nplus1.Rel4-14-1.akatest", "sans": ["dv-nplus1.rel4-14-1.akatest", "san-dv-nplus1.rel4-14-1.akatest"]}, "enableMultiStackedCertificates": false, "id": 10000, "location": "/cps/v2/enrollments/10000", "pendingChanges": [{"changeType": "renewal", "location": "/cps/v2/enrollments/10000/changes/10002"}], "production": {"location": "/cps/v2/enrollments/10000/deployments/production", "multiStackedCertificates": [{"expiry": "2024-10-18T23:59:59Z", "issuer": "CN=DigiCert TLS RSA SHA256 2020 CA1,O=DigiCert Inc,C=US", "keyAlgorithm": "RSA", "serial": "03:d8:23:ed:83:8c:7b:c7:bd:81:aa:c0:0a:b1:90:9b:fd:17", "sha256Fingerprint": "A4:8B:8A:23:80:FE:BE:56:9D:21:82:8A:56:96:BC:03:FA:63:62:13:1F:E7:36:22:1E:1B:50:E9:1D:7A:2F:F8", "signatureAlgorithm": "SHA-256"}], "networkConfiguration": {"disallowedTlsVersions": ["TLSv1", "TLSv1_1"], "dnsNames": null, "fipsMode": true, "geography": "core", "mustHaveCiphers": "ak-akamai-2020q1", "ocspStapling": "on", "preferredCiphers": "ak-akamai-2020q1", "quicEnabled": false, "secureNetwork": "enhanced-tls", "sniOnly": false}, "primaryCertificate": {"expiry": "2021-09-12T14:16:59z", "issuer": "CN=DigiCert TLS RSA SHA256 2020 CA1,O=DigiCert Inc,C=US", "keyAlgorithm": "RSA", "serial": "ff:36:a7:11:7a:91:1a:43:b3:fa:93:05:63:3a:d5:a9:9e:58", "sha256Fingerprint": "E0:EB:A8:BE:F9:92:70:2F:99:46:5E:3E:AC:79:13:E8:FC:00:8A:47:28:83:77:CC:7F:2F:B5:52:89:9C:2E:63", "signatureAlgorithm": "SHA-256"}}, "productionSlots": [38634], "staging": {"location": "/cps/v2/enrollments/10000/deployments/staging", "multiStackedCertificates": [{"expiry": "2024-10-18T23:59:59Z", "issuer": "CN=DigiCert TLS RSA SHA256 2020 CA1,O=DigiCert Inc,C=US", "keyAlgorithm": "RSA", "serial": "03:d8:23:ed:83:8c:7b:c7:bd:81:aa:c0:0a:b1:90:9b:fd:17", "sha256Fingerprint": "A4:8B:8A:23:80:FE:BE:56:9D:21:82:8A:56:96:BC:03:FA:63:62:13:1F:E7:36:22:1E:1B:50:E9:1D:7A:2F:F8", "signatureAlgorithm": "SHA-256"}], "networkConfiguration": {"disallowedTlsVersions": ["TLSv1", "TLSv1_1"], "dnsNames": null, "fipsMode": true, "geography": "core", "mustHaveCiphers": "ak-akamai-2020q1", "ocspStapling": "on", "preferredCiphers": "ak-akamai-2020q1", "quicEnabled": false, "secureNetwork": "enhanced-tls", "sniOnly": false}, "primaryCertificate": {"expiry": "2021-09-12T14:16:59z", "issuer": "CN=DigiCert TLS RSA SHA256 2020 CA1,O=DigiCert Inc,C=US", "keyAlgorithm": "RSA", "serial": "ff:36:a7:11:7a:91:1a:43:b3:fa:93:05:63:3a:d5:a9:9e:58", "sha256Fingerprint": "E0:EB:A8:BE:F9:92:70:2F:99:46:5E:3E:AC:79:13:E8:FC:00:8A:47:28:83:77:CC:7F:2F:B5:52:89:9C:2E:63", "signatureAlgorithm": "SHA-256"}}, "stagingSlots": [38634]}]}
+  post-enrollment:
+    "":
+      parameters:
+        query:
+          contractId: "K-0N7RAK7"
+          deploy-not-after: "2021-01-31"
+          deploy-not-before: "2021-01-31"
+          accountSwitchKey: "1-5C0YLB:1-8BYUX"
+      requestBody:
+        application/vnd.akamai.cps.enrollment.v12+json: {"adminContact": {"addressLineOne": "150 Broadway", "addressLineTwo": null, "city": "Cambridge", "country": "US", "email": "afero@akamai.com", "firstName": "R1", "lastName": "D1", "organizationName": "Akamai", "phone": "617-555-0111", "postalCode": "02142", "region": "MA", "title": "Adminstrator"}, "assignedSlots": [1234], "autoRenewalStartTime": null, "certificateChainType": "default", "certificateType": "third-party", "changeManagement": true, "csr": {"c": "US", "cn": "www.example.com", "l": "Cambridge", "o": "Akamai", "ou": "WebEx", "preferredTrustChain": null, "sans": ["san1.example.com", "san2.example.com", "san3.example.com", "www.example.com"], "st": "MA"}, "enableMultiStackedCertificates": false, "id": "10001", "location": "/cps-api/enrollments/10001", "maxAllowedSanNames": 100, "maxAllowedWildcardSanNames": 100, "networkConfiguration": {"clientMutualAuthentication": {"authenticationOptions": {"ocsp": {"enabled": false}, "sendCaListToClient": false}, "setId": "Custom_CPS-6134b_B-3-1AHBENT.xml"}, "disallowedTlsVersions": ["TLSv1", "TLSv1_1"], "dnsNameSettings": {"cloneDnsNames": false, "dnsNames": ["san2.example.com", "san1.example.com"]}, "fipsMode": true, "geography": "core", "mustHaveCiphers": "ak-akamai-2020q1", "ocspStapling": "on", "preferredCiphers": "ak-akamai-2020q1", "quicEnabled": false, "secureNetwork": "enhanced-tls", "sniOnly": true}, "org": {"addressLineOne": "150 Broadway", "addressLineTwo": null, "city": "Cambridge", "country": "US", "name": "Akamai Technologies", "phone": "617-555-0111", "postalCode": "02142", "region": "MA"}, "orgId": 645263546, "pendingChanges": [{"changeType": "new-certificate", "location": "/cps-api/enrollments/10001/changes/10002"}], "productionSlots": [1234], "ra": "third-party", "signatureAlgorithm": null, "stagingSlots": [1234], "techContact": {"addressLineOne": "150 Broadway", "addressLineTwo": null, "city": "Cambridge", "country": "US", "email": "jsmith@akamai.com", "firstName": "R2", "lastName": "D2", "organizationName": "Akamai", "phone": "617-555-0111", "postalCode": "02142", "region": "MA", "title": "Technical Engineer"}, "thirdParty": {"excludeSans": false}, "validationType": "third-party"}
+      responses:
+        "202":
+          application/vnd.akamai.cps.enrollment-status.v1+json: {"changes": ["/cps/v2/enrollments/10002/changes/10002"], "enrollment": "/cps/v2/enrollments/10002"}
+  get-enrollments:
+    "":
+      parameters:
+        query:
+          contractId: "K-0N7RAK7"
+          accountSwitchKey: "1-5C0YLB:1-8BYUX"
+      responses:
+        "200":
+          application/vnd.akamai.cps.enrollments.v11+json: {"enrollments": [{"adminContact": {"addressLineOne": "150 Broadway", "addressLineTwo": null, "city": "Cambridge", "country": "US", "email": "hgildong@akamai.com", "firstName": "R1", "lastName": "D1", "organizationName": "Akamai", "phone": "617-555-0111", "postalCode": "02142", "region": "MA", "title": "Adminstrator"}, "assignedSlots": [1234], "autoRenewalStartTime": null, "certificateChainType": "default", "certificateType": "third-party", "changeManagement": true, "csr": {"c": "US", "cn": "www.example.com", "l": "Cambridge", "o": "Akamai", "ou": "WebEx", "preferredTrustChain": null, "sans": ["san1.example.com", "san2.example.com", "san3.example.com", "www.example.com"], "st": "MA"}, "enableMultiStackedCertificates": false, "id": "10001", "location": "/cps-api/enrollments/10001", "maxAllowedSanNames": 100, "maxAllowedWildcardSanNames": 100, "networkConfiguration": {"clientMutualAuthentication": {"authenticationOptions": {"ocsp": {"enabled": false}, "sendCaListToClient": false}, "setId": "Custom_CPS-6134b_B-3-1AHBENT.xml"}, "disallowedTlsVersions": ["TLSv1", "TLSv1_1"], "dnsNameSettings": {"cloneDnsNames": false, "dnsNames": ["san2.example.com", "san1.example.com"]}, "geography": "core", "mustHaveCiphers": "ak-akamai-2020q1", "ocspStapling": "on", "preferredCiphers": "ak-akamai-2020q1", "quicEnabled": false, "secureNetwork": "enhanced-tls", "sniOnly": true}, "org": {"addressLineOne": "150 Broadway", "addressLineTwo": null, "city": "Cambridge", "country": "US", "name": "Akamai Technologies", "phone": "617-555-0111", "postalCode": "02142", "region": "MA"}, "orgId": 645263546, "pendingChanges": [{"changeType": "new-certificate", "location": "/cps-api/enrollments/10001/changes/10002"}], "productionSlots": [1234], "ra": "third-party", "signatureAlgorithm": null, "stagingSlots": [1234], "techContact": {"addressLineOne": "150 Broadway", "addressLineTwo": null, "city": "Cambridge", "country": "US", "email": "jperez@akamai.com", "firstName": "R2", "lastName": "D2", "organizationName": "Akamai", "phone": "617-555-0111", "postalCode": "02142", "region": "MA", "title": "Technical Engineer"}, "thirdParty": {"excludeSans": false}, "validationType": "third-party"}]}
+  get-enrollment:
+    "":
+      parameters:
+        path:
+          enrollmentId: 10000
+        query:
+          accountSwitchKey: "1-5C0YLB:1-8BYUX"
+      responses:
+        "200":
+          application/vnd.akamai.cps.enrollment.v12+json: {"adminContact": {"addressLineOne": "150 Broadway", "addressLineTwo": null, "city": "Cambridge", "country": "US", "email": "afero@akamai.com", "firstName": "R1", "lastName": "D1", "organizationName": "Akamai", "phone": "617-555-0111", "postalCode": "02142", "region": "MA", "title": "Adminstrator"}, "assignedSlots": [1234], "autoRenewalStartTime": null, "certificateChainType": "default", "certificateType": "third-party", "changeManagement": true, "csr": {"c": "US", "cn": "www.example.com", "l": "Cambridge", "o": "Akamai", "ou": "WebEx", "preferredTrustChain": null, "sans": ["san1.example.com", "san2.example.com", "san3.example.com", "www.example.com"], "st": "MA"}, "enableMultiStackedCertificates": false, "id": "10001", "location": "/cps-api/enrollments/10001", "maxAllowedSanNames": 100, "maxAllowedWildcardSanNames": 100, "networkConfiguration": {"clientMutualAuthentication": {"authenticationOptions": {"ocsp": {"enabled": false}, "sendCaListToClient": false}, "setId": "Custom_CPS-6134b_B-3-1AHBENT.xml"}, "disallowedTlsVersions": ["TLSv1", "TLSv1_1"], "dnsNameSettings": {"cloneDnsNames": false, "dnsNames": ["san2.example.com", "san1.example.com"]}, "fipsMode": true, "geography": "core", "mustHaveCiphers": "ak-akamai-2020q1", "ocspStapling": "on", "preferredCiphers": "ak-akamai-2020q1", "quicEnabled": false, "secureNetwork": "enhanced-tls", "sniOnly": true}, "org": {"addressLineOne": "150 Broadway", "addressLineTwo": null, "city": "Cambridge", "country": "US", "name": "Akamai Technologies", "phone": "617-555-0111", "postalCode": "02142", "region": "MA"}, "orgId": 645263546, "pendingChanges": [{"changeType": "new-certificate", "location": "/cps-api/enrollments/10001/changes/10002"}], "productionSlots": [1234], "ra": "third-party", "signatureAlgorithm": null, "stagingSlots": [1234], "techContact": {"addressLineOne": "150 Broadway", "addressLineTwo": null, "city": "Cambridge", "country": "US", "email": "jsmith@akamai.com", "firstName": "R2", "lastName": "D2", "organizationName": "Akamai", "phone": "617-555-0111", "postalCode": "02142", "region": "MA", "title": "Technical Engineer"}, "thirdParty": {"excludeSans": false}, "validationType": "third-party"}
+  put-enrollment:
+    "":
+      parameters:
+        path:
+          enrollmentId: 10000
+        query:
+          allow-cancel-pending-changes: true
+          allow-staging-bypass: true
+          deploy-not-after: "2021-01-31"
+          deploy-not-before: "2021-01-31"
+          force-renewal: true
+          renewal-date-check-override: true
+          allow-missing-certificate-addition: true
+          accountSwitchKey: "1-5C0YLB:1-8BYUX"
+      requestBody:
+        application/vnd.akamai.cps.enrollment.v12+json: {"adminContact": {"addressLineOne": "150 Broadway", "addressLineTwo": null, "city": "Cambridge", "country": "US", "email": "afero@akamai.com", "firstName": "R1", "lastName": "D1", "organizationName": "Akamai", "phone": "617-555-0111", "postalCode": "02142", "region": "MA", "title": "Adminstrator"}, "assignedSlots": [1234], "autoRenewalStartTime": null, "certificateChainType": "default", "certificateType": "third-party", "changeManagement": true, "csr": {"c": "US", "cn": "www.example.com", "l": "Cambridge", "o": "Akamai", "ou": "WebEx", "preferredTrustChain": null, "sans": ["san1.example.com", "san2.example.com", "san3.example.com", "www.example.com"], "st": "MA"}, "enableMultiStackedCertificates": false, "id": "10001", "location": "/cps-api/enrollments/10001", "maxAllowedSanNames": 100, "maxAllowedWildcardSanNames": 100, "networkConfiguration": {"clientMutualAuthentication": {"authenticationOptions": {"ocsp": {"enabled": false}, "sendCaListToClient": false}, "setId": "Custom_CPS-6134b_B-3-1AHBENT.xml"}, "disallowedTlsVersions": ["TLSv1", "TLSv1_1"], "dnsNameSettings": {"cloneDnsNames": false, "dnsNames": ["san2.example.com", "san1.example.com"]}, "fipsMode": true, "geography": "core", "mustHaveCiphers": "ak-akamai-2020q1", "ocspStapling": "on", "preferredCiphers": "ak-akamai-2020q1", "quicEnabled": false, "secureNetwork": "enhanced-tls", "sniOnly": true}, "org": {"addressLineOne": "150 Broadway", "addressLineTwo": null, "city": "Cambridge", "country": "US", "name": "Akamai Technologies", "phone": "617-555-0111", "postalCode": "02142", "region": "MA"}, "orgId": 645263546, "pendingChanges": [{"changeType": "new-certificate", "location": "/cps-api/enrollments/10001/changes/10002"}], "productionSlots": [1234], "ra": "third-party", "signatureAlgorithm": null, "stagingSlots": [1234], "techContact": {"addressLineOne": "150 Broadway", "addressLineTwo": null, "city": "Cambridge", "country": "US", "email": "jsmith@akamai.com", "firstName": "R2", "lastName": "D2", "organizationName": "Akamai", "phone": "617-555-0111", "postalCode": "02142", "region": "MA", "title": "Technical Engineer"}, "thirdParty": {"excludeSans": false}, "validationType": "third-party"}
+      responses:
+        "200":
+          application/vnd.akamai.cps.enrollment-status.v1+json: {"changes": ["/cps/v2/enrollments/10002/changes/10002"], "enrollment": "/cps/v2/enrollments/10002"}
+        "202":
+          application/vnd.akamai.cps.enrollment-status.v1+json: {"changes": ["/cps/v2/enrollments/10002/changes/10002"], "enrollment": "/cps/v2/enrollments/10002"}
+  delete-enrollment:
+    "":
+      parameters:
+        path:
+          enrollmentId: 10000
+        query:
+          allow-cancel-pending-changes: true
+          deploy-not-after: "2021-01-31"
+          deploy-not-before: "2021-01-31"
+          accountSwitchKey: "1-5C0YLB:1-8BYUX"
+      responses:
+        "200":
+          application/vnd.akamai.cps.enrollment-status.v1+json: {"changes": ["/cps/v2/enrollments/10002/changes/10002"], "enrollment": "/cps/v2/enrollments/10002"}
+        "202":
+          application/vnd.akamai.cps.enrollment-status.v1+json: {"changes": ["/cps/v2/enrollments/10002/changes/10002"], "enrollment": "/cps/v2/enrollments/10002"}
+  get-dv-history:
+    "":
+      parameters:
+        path:
+          enrollmentId: 10000
+        query:
+          accountSwitchKey: "1-5C0YLB:1-8BYUX"
+      responses:
+        "200":
+          application/vnd.akamai.cps.dv-history.v1+json: {"results": [{"domain": "load-open-dvl3c-3-wnng9g.121223-130905.shared.webexp-ipqa1.com", "domainHistory": [{"challenges": [{"error": null, "fullPath": "http://load-open-dvl3c-3-wnng9g.121223-130905.shared.webexp-ipqa1.com/.well-known/acme-challenge/DFVIgbAW-k177F_BD3V_nKnI3hkfY8l3cGv3szouyPc", "redirectFullPath": "http://dcv.akamai.com/.well-known/acme-challenge/DFVIgbAW-k177F_BD3V_nKnI3hkfY8l3cGv3szouyPc", "responseBody": "DFVIgbAW-k177F_BD3V_nKnI3hkfY8l3cGv3szouyPc.Gxh6YCa7zrFuIYq7Ymx7RwBEDF77-8GxUPf46LF9sQs", "status": "pending", "token": "DFVIgbAW-k177F_BD3V_nKnI3hkfY8l3cGv3szouyPc", "type": "http-01", "validationRecords": []}, {"error": null, "fullPath": "_acme-challenge.load-open-dvl3c-3-wnng9g.121223-130905.shared.webexp-ipqa1.com.", "redirectFullPath": "", "responseBody": "Ac6tRQbPcvwkM8Zs47-sDE_zrH8F3R2tdkLgbKq1RGw", "status": "pending", "token": "DFVIgbAW-k177F_BD3V_nKnI3hkfY8l3cGv3szouyPc", "type": "dns-01", "validationRecords": []}], "domain": "load-open-dvl3c-3-wnng9g.121223-130905.shared.webexp-ipqa1.com", "error": "Expired authorization", "expires": "2024-02-28T02:20:37Z", "fullPath": "http://load-open-dvl3c-3-wnng9g.121223-130905.shared.webexp-ipqa1.com/.well-known/acme-challenge/DFVIgbAW-k177F_BD3V_nKnI3hkfY8l3cGv3szouyPc", "redirectFullPath": "http://dcv.akamai.com/.well-known/acme-challenge/DFVIgbAW-k177F_BD3V_nKnI3hkfY8l3cGv3szouyPc", "requestTimestamp": "2024-02-21T02:20:37Z", "responseBody": "DFVIgbAW-k177F_BD3V_nKnI3hkfY8l3cGv3szouyPc.Gxh6YCa7zrFuIYq7Ymx7RwBEDF77-8GxUPf46LF9sQs", "status": "Error", "token": "DFVIgbAW-k177F_BD3V_nKnI3hkfY8l3cGv3szouyPc", "validatedTimestamp": "2024-02-28T02:29:20Z", "validationRecords": [], "validationStatus": "EXPIRED"}, {"challenges": [{"error": null, "fullPath": "http://load-open-dvl3c-3-wnng9g.121223-130905.shared.webexp-ipqa1.com/.well-known/acme-challenge/QrSeuNJD5qp7mvWNk4Rd8dEm3pv8pUw2b-wlYz8fpFo", "redirectFullPath": "http://dcv.akamai.com/.well-known/acme-challenge/QrSeuNJD5qp7mvWNk4Rd8dEm3pv8pUw2b-wlYz8fpFo", "responseBody": "QrSeuNJD5qp7mvWNk4Rd8dEm3pv8pUw2b-wlYz8fpFo.Xa62kF3R8ROkMzmxV7d2HkO1MBWFKKRyBN534QSH97I", "status": "pending", "token": "QrSeuNJD5qp7mvWNk4Rd8dEm3pv8pUw2b-wlYz8fpFo", "type": "http-01", "validationRecords": []}, {"error": null, "fullPath": "_acme-challenge.load-open-dvl3c-3-wnng9g.121223-130905.shared.webexp-ipqa1.com.", "redirectFullPath": "", "responseBody": "F8OGYGQkg_pqjzV67b5Z_kaxl_slctMVAp4D-uS2Jqc", "status": "pending", "token": "QrSeuNJD5qp7mvWNk4Rd8dEm3pv8pUw2b-wlYz8fpFo", "type": "dns-01", "validationRecords": []}], "domain": "load-open-dvl3c-3-wnng9g.121223-130905.shared.webexp-ipqa1.com", "error": "Expired authorization", "expires": "2024-03-06T02:38:15Z", "fullPath": "http://load-open-dvl3c-3-wnng9g.121223-130905.shared.webexp-ipqa1.com/.well-known/acme-challenge/QrSeuNJD5qp7mvWNk4Rd8dEm3pv8pUw2b-wlYz8fpFo", "redirectFullPath": "http://dcv.akamai.com/.well-known/acme-challenge/QrSeuNJD5qp7mvWNk4Rd8dEm3pv8pUw2b-wlYz8fpFo", "requestTimestamp": "2024-02-28T02:38:15Z", "responseBody": "QrSeuNJD5qp7mvWNk4Rd8dEm3pv8pUw2b-wlYz8fpFo.Xa62kF3R8ROkMzmxV7d2HkO1MBWFKKRyBN534QSH97I", "status": "Error", "token": "QrSeuNJD5qp7mvWNk4Rd8dEm3pv8pUw2b-wlYz8fpFo", "validatedTimestamp": "2024-03-06T02:46:04Z", "validationRecords": [], "validationStatus": "EXPIRED"}, {"challenges": [{"error": null, "fullPath": "http://load-open-dvl3c-3-wnng9g.121223-130905.shared.webexp-ipqa1.com/.well-known/acme-challenge/1ScEp1q2HFk81UbWFX2I1FRym851gRzyXYUUL8DjSSU", "redirectFullPath": "http://dcv.akamai.com/.well-known/acme-challenge/1ScEp1q2HFk81UbWFX2I1FRym851gRzyXYUUL8DjSSU", "responseBody": "1ScEp1q2HFk81UbWFX2I1FRym851gRzyXYUUL8DjSSU.Xa62kF3R8ROkMzmxV7d2HkO1MBWFKKRyBN534QSH97I", "status": "pending", "token": "1ScEp1q2HFk81UbWFX2I1FRym851gRzyXYUUL8DjSSU", "type": "http-01", "validationRecords": []}, {"error": null, "fullPath": "_acme-challenge.load-open-dvl3c-3-wnng9g.121223-130905.shared.webexp-ipqa1.com.", "redirectFullPath": "", "responseBody": "Zx-FxZnq1VWuty12ClMoG7eYDbyKXpBluqwYkKfzV8U", "status": "pending", "token": "1ScEp1q2HFk81UbWFX2I1FRym851gRzyXYUUL8DjSSU", "type": "dns-01", "validationRecords": []}], "domain": "load-open-dvl3c-3-wnng9g.121223-130905.shared.webexp-ipqa1.com", "error": "The domain load-open-dvl3c-3-wnng9g.121223-130905.shared.webexp-ipqa1.com is not ready for HTTP validation.", "expires": "2024-03-13T02:59:56Z", "fullPath": "http://load-open-dvl3c-3-wnng9g.121223-130905.shared.webexp-ipqa1.com/.well-known/acme-challenge/1ScEp1q2HFk81UbWFX2I1FRym851gRzyXYUUL8DjSSU", "redirectFullPath": "http://dcv.akamai.com/.well-known/acme-challenge/1ScEp1q2HFk81UbWFX2I1FRym851gRzyXYUUL8DjSSU", "requestTimestamp": "2024-03-06T02:59:56Z", "responseBody": "1ScEp1q2HFk81UbWFX2I1FRym851gRzyXYUUL8DjSSU.Xa62kF3R8ROkMzmxV7d2HkO1MBWFKKRyBN534QSH97I", "status": "Awaiting user", "token": "1ScEp1q2HFk81UbWFX2I1FRym851gRzyXYUUL8DjSSU", "validatedTimestamp": "2024-03-07T15:33:49Z", "validationRecords": [], "validationStatus": "DATA_NOT_READY"}]}]}
+  get-history-certificates:
+    "":
+      parameters:
+        path:
+          enrollmentId: 10000
+        query:
+          includeAll: true
+          accountSwitchKey: "1-5C0YLB:1-8BYUX"
+      responses:
+        "200":
+          application/vnd.akamai.cps.certificate-history.v2+json: {"certificates": [{"deploymentStatus": "inactive", "geography": "core", "multiStackedCertificates": [{"certificate": "-----BEGIN CERTIFICATE-----\nMIID ... <sample - removed for readability> .... Bp52w=\n-----END CERTIFICATE-----", "expiry": "2022-02-15T06:05:33Z", "keyAlgorithm": "RSA", "trustChain": "-----BEGIN CERTIFICATE-----\nMIID ... <sample - removed for readability> .... 7gf0=\n-----END CERTIFICATE-----"}], "primaryCertificate": {"certificate": "-----BEGIN CERTIFICATE-----\nMIID ... <sample - removed for readability> .... 9t0G\n-----END CERTIFICATE-----", "expiry": "2022-02-15T06:05:32Z", "keyAlgorithm": "ECDSA", "trustChain": "-----BEGIN CERTIFICATE-----\nMIIDT ... <sample - removed for readability> .... okCk=\n-----END CERTIFICATE-----"}, "ra": "third-party", "slots": [], "stagingStatus": "inactive", "type": "third-party"}, {"deploymentStatus": "active", "geography": "core", "multiStackedCertificates": [{"certificate": "-----BEGIN CERTIFICATE-----\nMIID ... <sample - removed for readability> .... Mweq/\n-----END CERTIFICATE-----", "expiry": "2022-02-05T13:21:20Z", "keyAlgorithm": "RSA", "trustChain": "-----BEGIN CERTIFICATE-----\nMIID ... <sample - removed for readability> .... KEUp0=\n-----END CERTIFICATE-----"}], "primaryCertificate": {"certificate": "-----BEGIN CERTIFICATE-----\nMIID ... <sample - removed for readability> .... J9JQs/v0=\n-----END CERTIFICATE-----", "expiry": "2022-02-05T13:21:21Z", "keyAlgorithm": "ECDSA", "trustChain": "-----BEGIN CERTIFICATE-----\nMIID ... <sample - removed for readability> .... KEUp0=\n-----END CERTIFICATE-----"}, "ra": "third-party", "slots": [19598], "stagingStatus": "active", "type": "third-party"}]}
+  get-enrollment-change:
+    "":
+      parameters:
+        path:
+          changeId: 10000
+          enrollmentId: 10000
+        query:
+          accountSwitchKey: "1-5C0YLB:1-8BYUX"
+      responses:
+        "200":
+          application/vnd.akamai.cps.change.v2+json: {"allowedInput": [{"info": "/cps/v2/enrollments/10002/changes/10002/input/info/third-party-csr", "requiredToProceed": true, "type": "third-party-certificate", "update": "/cps/v2/enrollments/10002/changes/10002/input/update/third-party-cert-and-trust-chain"}], "statusInfo": {"deploymentSchedule": {"notAfter": null, "notBefore": null}, "description": "Waiting for you to upload and submit your third party certificate and trust chain.", "error": null, "state": "awaiting-input", "status": "wait-upload-third-party"}}
+  delete-enrollment-change:
+    "":
+      parameters:
+        path:
+          changeId: 10000
+          enrollmentId: 10000
+        query:
+          accountSwitchKey: "1-5C0YLB:1-8BYUX"
+      responses:
+        "200":
+          application/vnd.akamai.cps.change-id.v1+json: {"change": "/cps/v2/enrollments/10002/changes/10002"}
+  get-change-deployment-schedule:
+    "":
+      parameters:
+        path:
+          changeId: 10000
+          enrollmentId: 10000
+        query:
+          accountSwitchKey: "1-5C0YLB:1-8BYUX"
+      responses:
+        "200":
+          application/vnd.akamai.cps.deployment-schedule.v1+json: {"notAfter": null, "notBefore": "2017-05-19T16:00:00Z"}
+  get-change-allowed-input-param:
+    "":
+      parameters:
+        path:
+          allowedInputTypeParam: "third-party-csr"
+          changeId: 10000
+          enrollmentId: 10000
+        query:
+          accountSwitchKey: "1-5C0YLB:1-8BYUX"
+      responses:
+        "200":
+          application/vnd.akamai.cps.change-management-info.v1+json: {"acknowledgementDeadline": null, "pendingState": {"pendingCertificate": {"certificateType": "third-party", "fullCertificate": "-----BEGIN CERTIFICATE-----\nMIID2DCCAsCgAwIBAgIQ661T ... qsdFdLrZlpsIQwpLqdgKZlSw==\n-----END CERTIFICATE-----", "signatureAlgorithm": "SHA-256"}, "pendingNetworkConfiguration": {"mustHaveCiphers": "ak-akamai-2020q1", "networkType": null, "preferredCiphers": "ak-akamai-2020q1", "sni": null}}, "validationResult": {"errors": null, "warnings": [{"message": "[SAN name [san9.example.com] removed from certificate is still live on the network., SAN name [san8.example.com] removed from certificate is still live on the network.]", "messageCode": "no-code"}]}, "validationResultHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"}
+          application/vnd.akamai.cps.change-management-info.v2+json: {"acknowledgementDeadline": null, "pendingState": {"pendingCertificate": {"certificateType": "third-party", "fullCertificate": "-----BEGIN CERTIFICATE-----\nMIID2DCCAsCgAwIBAgIQ661T ... yqsdFdLrZlpsIQwpLqdgKZlSw==\n-----END CERTIFICATE-----", "signatureAlgorithm": "SHA-256"}, "pendingNetworkConfiguration": {"disallowedTlsVersions": ["TLSv1_2"], "mustHaveCiphers": "ak-akamai-2020q1", "networkType": null, "preferredCiphers": "ak-akamai-2020q1", "sni": null}}, "validationResult": {"errors": null, "warnings": [{"message": "[SAN name [san9.example.com] removed from certificate is still live on the network., SAN name [san8.example.com] removed from certificate is still live on the network.]", "messageCode": "no-code"}]}, "validationResultHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"}
+          application/vnd.akamai.cps.change-management-info.v4+json: {"acknowledgementDeadline": null, "pendingState": {"pendingCertificate": {"certificateType": "third-party", "fullCertificate": "-----BEGIN CERTIFICATE-----\nMIID2DCCAsCgAwIBAgIQ661T ... FdLrZlpsIQwpLqdgKZlSw==\n-----END CERTIFICATE-----", "ocspStapled": false, "ocspUris": null, "signatureAlgorithm": "SHA-256"}, "pendingNetworkConfiguration": {"disallowedTlsVersions": ["TLSv1_2"], "dnsNameSettings": null, "mustHaveCiphers": "ak-akamai-2020q1", "networkType": null, "ocspStapling": "not-set", "preferredCiphers": "ak-akamai-2020q1", "quicEnabled": false, "sniOnly": false}}, "validationResult": {"errors": null, "warnings": [{"message": "[SAN name [san9.example.com] removed from certificate is still live on the network., SAN name [san8.example.com] removed from certificate is still live on the network.]", "messageCode": "no-code"}]}, "validationResultHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"}
+          application/vnd.akamai.cps.change-management-info.v5+json: {"acknowledgementDeadline": null, "pendingState": {"pendingCertificates": [{"certificateType": "third-party", "fullCertificate": "-----BEGIN CERTIFICATE-----\nMIID2 ... KZlSw==\n-----END CERTIFICATE-----", "keyAlgorithm": "RSA", "ocspStapled": false, "ocspUris": null, "signatureAlgorithm": "SHA-256"}], "pendingNetworkConfiguration": {"disallowedTlsVersions": ["TLSv1_2"], "dnsNameSettings": null, "mustHaveCiphers": "ak-akamai-2020q1", "networkType": null, "ocspStapling": "not-set", "preferredCiphers": "ak-akamai-2020q1", "quicEnabled": false, "sniOnly": false}}, "validationResult": {"errors": null, "warnings": [{"message": "[SAN name [san9.example.com] removed from certificate is still live on the network., SAN name [san8.example.com] removed from certificate is still live on the network.]", "messageCode": "no-code"}]}, "validationResultHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"}
+          application/vnd.akamai.cps.change-management-info.v6+json: {"acknowledgementDeadline": null, "pendingState": {"pendingCertificates": [{"certificateType": "third-party", "fullCertificate": "-----BEGIN CERTIFICATE-----\nMIID2 ... KZlSw==\n-----END CERTIFICATE-----", "keyAlgorithm": "RSA", "ocspStapled": false, "ocspUris": null, "signatureAlgorithm": "SHA-256"}], "pendingNetworkConfiguration": {"disallowedTlsVersions": ["TLSv1_2"], "dnsNameSettings": null, "fipsMode": true, "mustHaveCiphers": "ak-akamai-2020q1", "networkType": null, "ocspStapling": "not-set", "preferredCiphers": "ak-akamai-2020q1", "quicEnabled": false, "sniOnly": false}}, "validationResult": {"errors": null, "warnings": [{"message": "[SAN name [san9.example.com] removed from certificate is still live on the network., SAN name [san8.example.com] removed from certificate is still live on the network.]", "messageCode": "no-code"}]}, "validationResultHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"}
+          application/vnd.akamai.cps.csr.v1+json: {"csr": "-----BEGIN CERTIFICATE REQUEST-----\nMIIDPT ... <sample - removed for readability> .... hA9jc=\n-----END CERTIFICATE REQUEST-----"}
+          application/vnd.akamai.cps.csr.v2+json: {"csrs": [{"csr": "-----BEGIN CERTIFICATE REQUEST-----\nMIIDPT ... <sample - removed for readability> .... hA9jc=\n-----END CERTIFICATE REQUEST-----", "keyAlgorithm": "RSA"}]}
+          application/vnd.akamai.cps.deployment.v3+json: {"certificate": "-----BEGIN CERTIFICATE-----\nMIID2 ... <sample - removed for readability> .... ZlSw==\n-----END CERTIFICATE-----", "networkConfiguration": {"disallowedTlsVersions": [], "geography": "core", "mustHaveCiphers": "ak-akamai-2020q1", "preferredCiphers": "ak-akamai-2020q1", "secureNetwork": "enhanced-tls", "sni": {"cloneDnsNames": true, "dnsNames": ["san2.example.com", "san1.example.com"]}}, "signatureAlgorithm": "SHA-256", "trustChain": "-----BEGIN CERTIFICATE-----\nMIIDT ... <sample - removed for readability> .... JuAIQ=\n-----END CERTIFICATE-----"}
+          application/vnd.akamai.cps.deployment.v6+json: {"multiStackedCertificates": [{"certificate": "-----BEGIN CERTIFICATE-----\nMIID2 ... <sample - removed for readability> .... ZlSw==\n-----END CERTIFICATE-----", "expiry": "2021-06-10T12:00:00Z", "signatureAlgorithm": "SHA-256", "trustChain": "-----BEGIN CERTIFICATE-----\nMIIDT ... <sample - removed for readability> .... JuAIQ=\n-----END CERTIFICATE-----"}], "networkConfiguration": {"disallowedTlsVersions": [], "dnsNames": ["san2.example.com", "san1.example.com"], "geography": "core", "mustHaveCiphers": "ak-akamai-2020q1", "ocspStapling": "not-set", "preferredCiphers": "ak-akamai-2020q1", "quicEnabled": false, "secureNetwork": "standard-tls", "sniOnly": true}, "ocspStapled": true, "ocspUris": ["http://ocsp.example.com"], "primaryCertificate": {"certificate": "-----BEGIN CERTIFICATE-----\nMIID2 ... <sample - removed for readability> .... ZlSw==\n-----END CERTIFICATE-----", "expiry": "2021-06-10T12:00:00Z", "signatureAlgorithm": "SHA-256", "trustChain": "-----BEGIN CERTIFICATE-----\nMIIDT ... <sample - removed for readability> .... JuAIQ=\n-----END CERTIFICATE-----"}}
+          application/vnd.akamai.cps.deployment.v7+json: {"multiStackedCertificates": [{"certificate": "-----BEGIN CERTIFICATE-----\nMIID2 ... <sample - removed for readability> .... ZlSw==\n-----END CERTIFICATE-----", "expiry": "2021-06-10T12:00:00Z", "keyAlgorithm": "ECDSA", "signatureAlgorithm": "SHA-256", "trustChain": "-----BEGIN CERTIFICATE-----\nMIIDT ... <sample - removed for readability> .... JuAIQ=\n-----END CERTIFICATE-----"}], "networkConfiguration": {"disallowedTlsVersions": [], "dnsNames": ["san2.example.com", "san1.example.com"], "geography": "core", "mustHaveCiphers": "ak-akamai-2020q1", "ocspStapling": "not-set", "preferredCiphers": "ak-akamai-2020q1", "quicEnabled": false, "secureNetwork": "standard-tls", "sniOnly": true}, "ocspStapled": true, "ocspUris": ["http://ocsp.example.com"], "primaryCertificate": {"certificate": "-----BEGIN CERTIFICATE-----\nMIID2 ... <sample - removed for readability> .... ZlSw==\n-----END CERTIFICATE-----", "expiry": "2021-06-10T12:00:00Z", "keyAlgorithm": "RSA", "signatureAlgorithm": "SHA-256", "trustChain": "-----BEGIN CERTIFICATE-----\nMIIDT ... <sample - removed for readability> .... JuAIQ=\n-----END CERTIFICATE-----"}}
+          application/vnd.akamai.cps.deployment.v8+json: {"multiStackedCertificates": [{"certificate": "-----BEGIN CERTIFICATE-----\nMIID2 ... <sample - removed for readability> .... ZlSw==\n-----END CERTIFICATE-----", "expiry": "2021-06-10T12:00:00Z", "keyAlgorithm": "ECDSA", "signatureAlgorithm": "SHA-256", "trustChain": "-----BEGIN CERTIFICATE-----\nMIIDT ... <sample - removed for readability> .... JuAIQ=\n-----END CERTIFICATE-----"}], "networkConfiguration": {"disallowedTlsVersions": [], "dnsNames": ["san2.example.com", "san1.example.com"], "fipsMode": false, "geography": "core", "mustHaveCiphers": "ak-akamai-2020q1", "ocspStapling": "not-set", "preferredCiphers": "ak-akamai-2020q1", "quicEnabled": false, "secureNetwork": "standard-tls", "sniOnly": true}, "ocspStapled": true, "ocspUris": ["http://ocsp.example.com"], "primaryCertificate": {"certificate": "-----BEGIN CERTIFICATE-----\nMIID2 ... <sample - removed for readability> .... ZlSw==\n-----END CERTIFICATE-----", "expiry": "2021-06-10T12:00:00Z", "keyAlgorithm": "RSA", "signatureAlgorithm": "SHA-256", "trustChain": "-----BEGIN CERTIFICATE-----\nMIIDT ... <sample - removed for readability> .... JuAIQ=\n-----END CERTIFICATE-----"}}
+          application/vnd.akamai.cps.dv-challenges.v1+json: {"challenges": [{"domain": "www.cps-example-dv.com", "error": "The domain is not ready for validation.", "expires": "2017-05-19T18:00:00Z", "fullPath": "http://www.cps-example-dv.com/.well-known/acme-challenge/abcdefghijklmno-KuzBi3q5Dr6TU8ViHSDSf-c9Iyg", "redirectFullPath": "http://dcv.akamai.com/.well-known/acme-challenge/abcdefghijklmno-KuzBi3q5Dr6TU8ViHSDSf-c9Iyg", "requestTimestamp": "2017-05-19T17:20:00Z", "responseBody": "12345-...-abcdef", "status": "Awaiting user", "token": "abcdefghijklmno-123453q5Dr6TU8ViHSDSf-c9Iyg", "validatedTimestamp": "2017-05-19T17:35:22Z"}]}
+          application/vnd.akamai.cps.dv-challenges.v2+json: {"dv": [{"challenges": [{"error": null, "fullPath": "http://www.cps-example-dv.com/.well-known/acme-challenge/abcdefghijklmno-123453q5Dr6TU8ViHSDSf-c9Iyg", "redirectFullPath": "http://dcv.akamai.com/.well-known/acme-challenge/abcdefghijklmno-123453q5Dr6TU8ViHSDSf-c9Iyg", "responseBody": "AAA-dvq11111CmSWBzwIFpc4G2OCh5YXoHK56VccGmU.-BBBBBD3eQiu1uf5vf4xp-ZJv71AiycGGMuLtf06BnA", "status": "Pending", "token": "abcdefghijklmno-123453q5Dr6TU8ViHSDSf-c9Iyg", "type": "http-01", "validationRecords": []}, {"error": null, "fullPath": "_acme-challenge.www.cps-example-dv.com.", "redirectFullPath": "http://dcv.akamai.com/.well-known/acme-challenge/abcdefghijklmno-123453q5Dr6TU8ViHSDSf-c9Iyg", "responseBody": "0yVISDJjpXR7BXzR5QgfA51tt-I6aKremGnPwK_lvH4", "status": "Pending", "token": "cGBnw-3YO7rUhq61EuuHqcGrYkaQWALAgi8szTqRoHA", "type": "dns-01", "validationRecords": []}], "domain": "www.cps-example-dv.com", "error": "The domain is not ready for validation.", "expires": "2021-09-06T17:55:17Z", "requestTimestamp": "2021-09-05T15:55:49Z", "status": "Awaiting user", "validatedTimestamp": "2021-09-05T17:53:22Z", "validationStatus": "RESPONSE_ERROR"}]}
+          application/vnd.akamai.cps.warnings.v1+json: {"warnings": "Some of the domains being provisioned (%s) exist on another certificate. Akamai recommends against overlapping names on Enhanced TLS and Standard TLS certificates except during digital property migrations. Enhanced TLS traffic could be misdirected in the event of DNS misconfiguration and treated as Standard TLS until the overlap is eliminated."}
+  post-change-allowed-input-param:
+    "":
+      parameters:
+        path:
+          allowedInputTypeParam: "third-party-cert-and-trust-chain"
+          changeId: 10000
+          enrollmentId: 10000
+        query:
+          accountSwitchKey: "1-5C0YLB:1-8BYUX"
+      requestBody:
+        application/vnd.akamai.cps.acknowledgement-with-hash.v1+json: {"certificatesAndTrustChains": [{"certificate": "-----BEGIN CERTIFICATE-----\nMIID ... KZlSw==\n-----END CERTIFICATE-----", "keyAlgorithm": "ECDSA", "trustChain": "-----BEGIN CERTIFICATE-----\nMIID ... 4p5mA=\n-----END CERTIFICATE-----\n-----BEGIN CERTIFICATE-----\nMIIDQ ... JuAIQ=\n-----END CERTIFICATE-----"}, {"certificate": "-----BEGIN CERTIFICATE-----\nMIID ... ZKwSl==\n-----END CERTIFICATE-----", "keyAlgorithm": "RSA", "trustChain": "-----BEGIN CERTIFICATE-----\nMIID ... mA45p=\n-----END CERTIFICATE-----\n-----BEGIN CERTIFICATE-----\nMIIDQ ... QuIAJ=\n-----END CERTIFICATE-----"}]}
+        application/vnd.akamai.cps.acknowledgement.v1+json: {"certificatesAndTrustChains": [{"certificate": "-----BEGIN CERTIFICATE-----\nMIID ... KZlSw==\n-----END CERTIFICATE-----", "keyAlgorithm": "ECDSA", "trustChain": "-----BEGIN CERTIFICATE-----\nMIID ... 4p5mA=\n-----END CERTIFICATE-----\n-----BEGIN CERTIFICATE-----\nMIIDQ ... JuAIQ=\n-----END CERTIFICATE-----"}, {"certificate": "-----BEGIN CERTIFICATE-----\nMIID ... ZKwSl==\n-----END CERTIFICATE-----", "keyAlgorithm": "RSA", "trustChain": "-----BEGIN CERTIFICATE-----\nMIID ... mA45p=\n-----END CERTIFICATE-----\n-----BEGIN CERTIFICATE-----\nMIIDQ ... QuIAJ=\n-----END CERTIFICATE-----"}]}
+        application/vnd.akamai.cps.certificate-and-trust-chain.v1+json: {"certificatesAndTrustChains": [{"certificate": "-----BEGIN CERTIFICATE-----\nMIID ... KZlSw==\n-----END CERTIFICATE-----", "keyAlgorithm": "ECDSA", "trustChain": "-----BEGIN CERTIFICATE-----\nMIID ... 4p5mA=\n-----END CERTIFICATE-----\n-----BEGIN CERTIFICATE-----\nMIIDQ ... JuAIQ=\n-----END CERTIFICATE-----"}, {"certificate": "-----BEGIN CERTIFICATE-----\nMIID ... ZKwSl==\n-----END CERTIFICATE-----", "keyAlgorithm": "RSA", "trustChain": "-----BEGIN CERTIFICATE-----\nMIID ... mA45p=\n-----END CERTIFICATE-----\n-----BEGIN CERTIFICATE-----\nMIIDQ ... QuIAJ=\n-----END CERTIFICATE-----"}]}
+        application/vnd.akamai.cps.certificate-and-trust-chain.v2+json: {"certificatesAndTrustChains": [{"certificate": "-----BEGIN CERTIFICATE-----\nMIID ... KZlSw==\n-----END CERTIFICATE-----", "keyAlgorithm": "ECDSA", "trustChain": "-----BEGIN CERTIFICATE-----\nMIID ... 4p5mA=\n-----END CERTIFICATE-----\n-----BEGIN CERTIFICATE-----\nMIIDQ ... JuAIQ=\n-----END CERTIFICATE-----"}, {"certificate": "-----BEGIN CERTIFICATE-----\nMIID ... ZKwSl==\n-----END CERTIFICATE-----", "keyAlgorithm": "RSA", "trustChain": "-----BEGIN CERTIFICATE-----\nMIID ... mA45p=\n-----END CERTIFICATE-----\n-----BEGIN CERTIFICATE-----\nMIIDQ ... QuIAJ=\n-----END CERTIFICATE-----"}]}
+      responses:
+        "200":
+          application/vnd.akamai.cps.change-id.v1+json: {"change": "/cps/v2/enrollments/10002/changes/10002"}
+  get-history-changes:
+    "":
+      parameters:
+        path:
+          enrollmentId: 10000
+        query:
+          includeAll: true
+          accountSwitchKey: "1-5C0YLB:1-8BYUX"
+      responses:
+        "200":
+          application/vnd.akamai.cps.change-history.v5+json: {"changes": [{"action": "renew", "actionDescription": "Renew Certificate", "businessCaseId": "5005B00000XYZA1234", "createdBy": "mrossi", "createdOn": "2021-05-09T19:26:59Z", "lastUpdated": "2021-06-12T12:56:55Z", "multiStackedCertificates": [{"certificate": "-----BEGIN CERTIFICATE-----\nMIIDu ... <sample - removed for readability> .... 3JpAg==\n-----END CERTIFICATE-----", "csr": "-----BEGIN CERTIFICATE REQUEST-----\nMIIC2 ... <sample - removed for readability> .... mdnsaw=\n-----END CERTIFICATE REQUEST-----", "keyAlgorithm": "ECDSA", "trustChain": "-----BEGIN CERTIFICATE-----\nMIIDzD ... <sample - removed for readability> .... F3+fA==\n-----END CERTIFICATE-----"}], "primaryCertificate": {"certificate": "-----BEGIN CERTIFICATE-----\nMIIFH ... <sample - removed for readability> .... b+kIw==\n-----END CERTIFICATE-----", "csr": "-----BEGIN CERTIFICATE REQUEST-----\nMIIC2 ... <sample - removed for readability> .... mdnsaw=\n-----END CERTIFICATE REQUEST-----", "keyAlgorithm": "RSA", "trustChain": "-----BEGIN CERTIFICATE-----\nMIIEdj ... <sample - removed for readability> .... oqzb5Ct\n-----END CERTIFICATE-----"}, "primaryCertificateOrderDetails": {"orderId": "abcdefM6Gw3WvN2p12345"}, "ra": "symantec", "status": "completed"}, {"action": "renew", "actionDescription": "Renew Certificate", "businessCaseId": "5005B00000DEFG1234", "createdBy": "szhang", "createdOn": "2021-02-02T18:21:17Z", "lastUpdated": "2021-02-05T19:57:14Z", "multiStackedCertificates": [{"certificate": null, "csr": "-----BEGIN CERTIFICATE REQUEST-----\nMIIC2 ... <sample - removed for readability> .... mdnsaw=\n-----END CERTIFICATE REQUEST-----", "keyAlgorithm": "ECDSA", "trustChain": null}], "primaryCertificate": {"certificate": "-----BEGIN CERTIFICATE-----\nMIIFH ... <sample - removed for readability> .... b+kIw==\n-----END CERTIFICATE-----", "csr": "-----BEGIN CERTIFICATE REQUEST-----\nMIIC2 ... <sample - removed for readability> .... mdnsaw=\n-----END CERTIFICATE REQUEST-----", "keyAlgorithm": "RSA", "trustChain": "-----BEGIN CERTIFICATE-----\nMIIEdj ... <sample - removed for readability> .... oqzb5Ct\n-----END CERTIFICATE-----"}, "primaryCertificateOrderDetails": {"orderId": "abcdeHvg8F7caXW312345"}, "ra": "symantec", "status": "cancelled"}, {"action": "renew", "actionDescription": "Renew Certificate", "businessCaseId": null, "createdBy": "jperez", "createdOn": "2021-02-01T17:16:35Z", "lastUpdated": null, "multiStackedCertificates": [], "primaryCertificate": null, "primaryCertificateOrderDetails": null, "ra": "symantec", "status": "cancelled"}, {"action": "new-certificate", "actionDescription": "Create New Certificate", "businessCaseId": "5005B00000ABCD1234", "createdBy": "szhang", "createdOn": "2021-02-01T16:30:58Z", "lastUpdated": "2021-02-01T17:16:37Z", "multiStackedCertificates": [{"certificate": "-----BEGIN CERTIFICATE-----\nMIIDu ... <sample - removed for readability> .... 3JpAg==\n-----END CERTIFICATE-----", "csr": "-----BEGIN CERTIFICATE REQUEST-----\nMIIC2 ... <sample - removed for readability> .... mdnsaw=\n-----END CERTIFICATE REQUEST-----", "keyAlgorithm": "ECDSA", "trustChain": "-----BEGIN CERTIFICATE-----\nMIIDzD ... <sample - removed for readability> .... F3+fA==\n-----END CERTIFICATE-----"}], "primaryCertificate": {"certificate": "-----BEGIN CERTIFICATE-----\nMIIFH ... <sample - removed for readability> .... b+kIw==\n-----END CERTIFICATE-----", "csr": "-----BEGIN CERTIFICATE REQUEST-----\nMIIC2 ... <sample - removed for readability> .... mdnsaw=\n-----END CERTIFICATE REQUEST-----", "keyAlgorithm": "RSA", "trustChain": "-----BEGIN CERTIFICATE-----\nMIIEdj ... <sample - removed for readability> .... oqzb5Ct\n-----END CERTIFICATE-----"}, "primaryCertificateOrderDetails": {"orderId": "abcdex7zh8wspr4m12345"}, "ra": "symantec", "status": "completed"}]}
+  put-change-deployment-schedule:
+    "":
+      parameters:
+        path:
+          changeId: 10000
+          enrollmentId: 10000
+        query:
+          accountSwitchKey: "1-5C0YLB:1-8BYUX"
+      requestBody:
+        application/vnd.akamai.cps.deployment-schedule.v1+json: {"notAfter": null, "notBefore": "2017-05-19T16:00:00Z"}
+      responses:
+        "200":
+          application/vnd.akamai.cps.change-id.v1+json: {"change": "/cps/v2/enrollments/10002/changes/10002"}
+  get-deployments:
+    "":
+      parameters:
+        path:
+          enrollmentId: 10000
+        query:
+          accountSwitchKey: "1-5C0YLB:1-8BYUX"
+      responses:
+        "200":
+          application/vnd.akamai.cps.deployments.v8+json: {"production": {"multiStackedCertificates": [{"certificate": "-----BEGIN CERTIFICATE-----\nMIID <sample - removed for readability> .... nMweq/\n-----END CERTIFICATE-----", "expiry": "2022-02-05T13:21:20Z", "keyAlgorithm": "RSA", "signatureAlgorithm": "SHA-256", "trustChain": "-----BEGIN CERTIFICATE-----\nMIID <sample - removed for readability> .... KEUp0=\n-----END CERTIFICATE-----"}], "networkConfiguration": {"disallowedTlsVersions": ["TLSv1", "TLSv1_1"], "dnsNames": ["san2.example.com", "san1.example.com"], "fipsMode": false, "geography": "core", "mustHaveCiphers": "ak-akamai-2020q1", "ocspStapling": "on", "preferredCiphers": "ak-akamai-2020q1", "quicEnabled": false, "secureNetwork": "standard-tls", "sniOnly": true}, "ocspStapled": false, "ocspUris": [], "primaryCertificate": {"certificate": "-----BEGIN CERTIFICATE-----\nMIID <sample - removed for readability> .... 93Nvw==\n-----END CERTIFICATE-----", "expiry": "2022-02-05T13:21:21Z", "keyAlgorithm": "ECDSA", "signatureAlgorithm": "SHA-256", "trustChain": "-----BEGIN CERTIFICATE-----\nMIID <sample - removed for readability> .... Qs/v0=\n-----END CERTIFICATE-----"}}, "staging": {"multiStackedCertificates": [{"certificate": "-----BEGIN CERTIFICATE-----\nMIID <sample - removed for readability> .... nMweq/\n-----END CERTIFICATE-----", "expiry": "2022-02-05T13:21:20Z", "keyAlgorithm": "RSA", "signatureAlgorithm": "SHA-256", "trustChain": "-----BEGIN CERTIFICATE-----\nMIID <sample - removed for readability> .... KEUp0=\n-----END CERTIFICATE-----"}], "networkConfiguration": {"disallowedTlsVersions": ["TLSv1", "TLSv1_1"], "dnsNames": ["san2.example.com", "san1.example.com"], "fipsMode": true, "geography": "core", "mustHaveCiphers": "ak-akamai-2020q1", "ocspStapling": "on", "preferredCiphers": "ak-akamai-2020q1", "quicEnabled": false, "secureNetwork": "standard-tls", "sniOnly": true}, "ocspStapled": false, "ocspUris": [], "primaryCertificate": {"certificate": "-----BEGIN CERTIFICATE-----\nMIID <sample - removed for readability> .... 93Nvw==\n-----END CERTIFICATE-----", "expiry": "2022-02-05T13:21:21Z", "keyAlgorithm": "ECDSA", "signatureAlgorithm": "SHA-256", "trustChain": "-----BEGIN CERTIFICATE-----\nMIID <sample - removed for readability> .... 9JQs/v0=\n-----END CERTIFICATE-----"}}}
+  get-deployments-production:
+    "":
+      parameters:
+        path:
+          enrollmentId: 10000
+        query:
+          accountSwitchKey: "1-5C0YLB:1-8BYUX"
+      responses:
+        "200":
+          application/vnd.akamai.cps.deployment.v8+json: {"multiStackedCertificates": [{"certificate": "-----BEGIN CERTIFICATE-----\nMIID2 ... <sample - removed for readability> .... ZlSw==\n-----END CERTIFICATE-----", "expiry": "2021-06-10T12:00:00Z", "keyAlgorithm": "ECDSA", "signatureAlgorithm": "SHA-256", "trustChain": "-----BEGIN CERTIFICATE-----\nMIIDT ... <sample - removed for readability> .... JuAIQ=\n-----END CERTIFICATE-----"}], "networkConfiguration": {"disallowedTlsVersions": [], "dnsNames": ["san2.example.com", "san1.example.com"], "fipsMode": false, "geography": "core", "mustHaveCiphers": "ak-akamai-2020q1", "ocspStapling": "not-set", "preferredCiphers": "ak-akamai-2020q1", "quicEnabled": false, "secureNetwork": "standard-tls", "sniOnly": true}, "ocspStapled": true, "ocspUris": ["http://ocsp.example.com"], "primaryCertificate": {"certificate": "-----BEGIN CERTIFICATE-----\nMIID2 ... <sample - removed for readability> .... ZlSw==\n-----END CERTIFICATE-----", "expiry": "2021-06-10T12:00:00Z", "keyAlgorithm": "RSA", "signatureAlgorithm": "SHA-256", "trustChain": "-----BEGIN CERTIFICATE-----\nMIIDT ... <sample - removed for readability> .... JuAIQ=\n-----END CERTIFICATE-----"}}
+  get-deployment-staging:
+    "":
+      parameters:
+        path:
+          enrollmentId: 10000
+        query:
+          accountSwitchKey: "1-5C0YLB:1-8BYUX"
+      responses:
+        "200":
+          application/vnd.akamai.cps.deployment.v8+json: {"multiStackedCertificates": [{"certificate": "-----BEGIN CERTIFICATE-----\nMIID2 ... <sample - removed for readability> .... ZlSw==\n-----END CERTIFICATE-----", "expiry": "2021-06-10T12:00:00Z", "keyAlgorithm": "ECDSA", "signatureAlgorithm": "SHA-256", "trustChain": "-----BEGIN CERTIFICATE-----\nMIIDT ... <sample - removed for readability> .... JuAIQ=\n-----END CERTIFICATE-----"}], "networkConfiguration": {"disallowedTlsVersions": [], "dnsNames": ["san2.example.com", "san1.example.com"], "fipsMode": false, "geography": "core", "mustHaveCiphers": "ak-akamai-2020q1", "ocspStapling": "not-set", "preferredCiphers": "ak-akamai-2020q1", "quicEnabled": false, "secureNetwork": "standard-tls", "sniOnly": true}, "ocspStapled": true, "ocspUris": ["http://ocsp.example.com"], "primaryCertificate": {"certificate": "-----BEGIN CERTIFICATE-----\nMIID2 ... <sample - removed for readability> .... ZlSw==\n-----END CERTIFICATE-----", "expiry": "2021-06-10T12:00:00Z", "keyAlgorithm": "RSA", "signatureAlgorithm": "SHA-256", "trustChain": "-----BEGIN CERTIFICATE-----\nMIIDT ... <sample - removed for readability> .... JuAIQ=\n-----END CERTIFICATE-----"}}
